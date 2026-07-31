@@ -7,7 +7,7 @@ export const personal = {
   location: "Cairo, Egypt",
   email: "gamal.sayedahmedmuhammed@gmail.com",
   phone: "+20 1144651667",
-  github: "https://github.com/gamalsayed", // TODO: confirm your actual GitHub username
+  github: "https://github.com/GamalSayedAhmed",
   linkedin: "https://www.linkedin.com/in/1gamal-sayed/",
   portfolio: "https://gamal-sayed-portfolio.vercel.app/",
   resumeUrl: "/resume.pdf",
