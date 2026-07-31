@@ -58,7 +58,7 @@ export const projects: Project[] = [
     impact:
       "Built ETL pipelines and an ML forecasting model achieving 95% accuracy, with real-time Power BI dashboards delivering actionable insights.",
     tech: ["Azure", "SSIS", "Power BI", "Python", "Machine Learning"],
-    githubUrl: "https://github.com/gamalsayed/traffic-monitoring-analytics",
+    githubUrl: "https://github.com/GamalSayedAhmed/TrafficUKAnalysis.git",
     pipeline: [
       { label: "Raw Traffic Data" },
       { label: "SSIS / Azure ETL" },
@@ -77,7 +77,7 @@ export const projects: Project[] = [
     impact:
       "Delivered an NLP chatbot and computer-vision pose-estimation system alongside a full set of operational modules for a working healthcare platform.",
     tech: ["Python", "NLP", "Computer Vision"],
-    githubUrl: "https://github.com/gamalsayed/careview",
+    githubUrl: "https://github.com/GamalSayedAhmed/CareView.git",
     pipeline: [
       { label: "Patient Interaction" },
       { label: "NLP Chatbot" },
@@ -87,21 +87,21 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    slug: "ai-iot-anomaly-detection",
-    title: "AI/IoT Anomaly Detection System",
+    slug: "ssis-tasks-depi",
+    title: "SSIS Tasks - DEPI",
     description:
-      "An end-to-end anomaly detection pipeline built during an internship at NTI, processing sensor data streams in real time.",
+      "A collection of 28 hands-on SSIS exercises completed during the Digital Egypt Pioneers Initiative (DEPI), covering data integration, transformation, control flow, error handling, and package management.",
     problem:
-      "Sensor data streams across multiple sensor types needed real-time monitoring to flag irregular patterns as they happened, not after the fact.",
+      "The exercises were designed to build practical experience with SQL Server Integration Services by solving real-world data integration and ETL scenarios using different SSIS components and workflows.",
     impact:
-      "Delivered a fully functional AI/IoT solution within a one-month timeline, tuning models across multiple sensor types and earning a final evaluation score of 90/100.",
-    tech: ["Python", "Machine Learning", "IoT"],
-    githubUrl: "https://github.com/gamalsayed/ai-iot-anomaly-detection",
+    "Built practical ETL and data integration skills through 28 exercises covering Data Flow, Control Flow, Conditional Split, Lookup, Merge, Derived Columns, Variables, Parameters, Transactions, Checkpoints, Event Handlers, Slowly Changing Dimensions, Pivot/Unpivot, Debugging, and Performance Tuning.",
+    tech: ["SSIS", "SQL Server", "ETL", "Data Integration"],
+    githubUrl: "https://github.com/GamalSayedAhmed/DEPI-SSIS-Tasks",
     pipeline: [
-      { label: "Sensor Data Streams" },
-      { label: "Feature Engineering" },
-      { label: "ML Model" },
-      { label: "Real-Time Anomaly Alerts" },
+      { label: "Data Sources" },
+      { label: "Data Flow & Transformations" },
+      { label: "Control Flow & Packages" },
+      { label: "SQL Server Destination" },
     ],
     featured: false,
   },
@@ -164,6 +164,11 @@ export const certifications: Certification[] = [
   },
   {
     name: "Excellence Award, Best Team Leader, Soft Skills",
+    issuer: "Digital Egypt Pioneers Initiative (DEPI)",
+    year: "2024",
+  },
+  {
+    name: "Microsoft Data Engineer Track",
     issuer: "Digital Egypt Pioneers Initiative (DEPI)",
     year: "2024",
   },
