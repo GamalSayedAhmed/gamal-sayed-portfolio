@@ -45,6 +45,15 @@ export const skills: Skill[] = [
   { name: "Computer Vision", category: "Processing", level: 70 },
   { name: "Figma", category: "Tooling", level: 65 },
   { name: "Visual Studio", category: "Tooling", level: 85 },
+  { name: "Microsoft Fabric", category: "Platform", level: 80 },
+  { name: "DAX", category: "Language", level: 82 },
+  { name: "PySpark", category: "Language", level: 70 },
+  { name: "KQL", category: "Language", level: 65 },
+  { name: "Delta Lake", category: "Storage", level: 70 },
+  { name: "ETL / ELT", category: "Processing", level: 88 },
+  { name: "Dimensional Modeling", category: "Processing", level: 85 },
+  { name: "Medallion Architecture", category: "Processing", level: 75 },
+  { name: "CI/CD", category: "Tooling", level: 65 },
 ];
 
 export const projects: Project[] = [
@@ -171,6 +180,8 @@ export const experience: ExperienceEntry[] = [
       "Built ETL pipelines using SQL Server, SSIS, and Azure, consolidating multiple reporting workflows into a single automated pipeline and reducing manual data processing time.",
       "Designed star-schema data warehouses serving 3+ business domains, enabling faster query performance and consistent metrics across analytical dashboards.",
       "Developed Power BI dashboards and automated cloud workflows, cutting reporting turnaround from days to near real-time for stakeholder decision-making.",
+      "Earned the program's Excellence Award and Best Team Leader recognition.",
+      "Completed freelance data engineering projects alongside the DEPI program, applying Microsoft data engineering technologies to real-world client requirements.",
     ],
   },
   {
